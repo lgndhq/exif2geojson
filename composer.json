@@ -1,0 +1,9 @@
+{
+    "name": "lgndhq/exif2geojson",
+    "description": "Utility to create a geoJSON file with GPS coordinates from EXIF data in JPEG files",
+    "license": "MIT",
+    "require": {
+        "miljar/php-exif": "^0.6.5"
+    },
+    "bin": ["bin/exif2geojson.phar"]
+}
