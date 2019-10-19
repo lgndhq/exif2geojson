@@ -5,5 +5,8 @@
     "require": {
         "miljar/php-exif": "^0.6.5"
     },
-    "bin": ["bin/exif2geojson.php"]
+    "bin": ["bin/exif2geojson.php"],
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.3"
+    }
 }

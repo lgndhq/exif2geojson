@@ -16,6 +16,6 @@ before_install:
 install:
 - composer install --no-interaction --no-progress --no-suggest --prefer-dist
 script:
-- vendor/bin/box build  # Build your PHAR
+- vendor/bin/box compile  # Build your PHAR
 notifications:
   email: true
