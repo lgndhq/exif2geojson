@@ -1,3 +1,3 @@
 vendor
 *.geojson
-bin/exif2geojson
+bin/exif2geojson.phar

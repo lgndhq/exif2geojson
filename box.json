@@ -1,3 +1,9 @@
 {
-  "output": "bin/exif2geojson"
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["test", "tests"],
+            "in": "vendor"
+         }
+    ]
 }
