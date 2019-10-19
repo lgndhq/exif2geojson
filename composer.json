@@ -5,5 +5,5 @@
     "require": {
         "miljar/php-exif": "^0.6.5"
     },
-    "bin": ["bin/exif2geojson.phar"]
+    "bin": ["bin/exif2geojson.php"]
 }

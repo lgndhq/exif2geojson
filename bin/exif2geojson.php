@@ -6,7 +6,7 @@ if (count($argv) === 1) {
 	exit();
 }
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 $geojson = [
 	'type' => 'FeatureCollection',
