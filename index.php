@@ -2,9 +2,8 @@
 
 if (count($argv) === 1) {
 	fwrite(STDERR, "\n\e[1;37mexif2geojson\e[0m by LGND (https://lgnd.com)\n\n");
-  fwrite(STDERR, "\e[1;33mUsage:\e[0m php exifgeojson.phar [*.jpg] > output.geojson\n\n");
+  fwrite(STDERR, "\e[1;33mUsage:\e[0m php " . basename($_SERVER['PHP_SELF']) . " [*.jpg] > output.geojson\n\n");
 	exit();
-	//fwrite(STDERR, "\e[0;31m\e[0m\n");
 }
 
 require __DIR__.'/vendor/autoload.php';
@@ -46,3 +45,5 @@ foreach (array_slice($argv, 1) as $file) {
 echo json_encode($geojson);
 
 fwrite(STDERR, "\n\e[1;32mProcessed {$processedCount} files\e[0m\n");
+
+__HALT_COMPILER();
