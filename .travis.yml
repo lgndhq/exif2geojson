@@ -26,3 +26,4 @@ deploy:
   file: bin/exif2geojson.phar
   on:
     repo: lgndhq/exif2geojson
+    tags: true
